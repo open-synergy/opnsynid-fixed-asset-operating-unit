@@ -13,10 +13,7 @@ class StockQuant(models.Model):
         _super = super(StockQuant, self)
         result = _super._prepare_fixed_asset_data()
         move = self.history_ids[0]  # TODO: Error prone?
-        operating_unit_id = \
-            move.picking_type_id.warehouse_id.operating_unit_id and \
-            move.picking_type_id.warehouse_id.operating_unit_id.id or \
-            False
+        operating_unit_id = self.operating_unit_id and self.operating_unit_id.id or False
         result.update({
             "operating_unit_id": operating_unit_id,
         })
