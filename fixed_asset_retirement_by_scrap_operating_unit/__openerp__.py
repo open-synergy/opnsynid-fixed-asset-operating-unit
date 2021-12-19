@@ -4,14 +4,14 @@
 # pylint: disable=locally-disabled, manifest-required-author
 {
     "name": "Asset Management Retirement by Scrap with Operating Units",
-    "version": "8.0.1.0.0",
+    "version": "8.0.1.1.0",
     "author": "OpenSynergy Indonesia",
     "license": "AGPL-3",
     "website": "https://opensynergy-indonesia.com",
     "category": "Accounting",
     "depends": [
         "fixed_asset_operating_unit",
-        "fixed_asset_retirement_by_scrap"
+        "fixed_asset_retirement_scrap"
     ],
     "data": [
         "security/account_asset_retirement_by_scrap_security.xml"
