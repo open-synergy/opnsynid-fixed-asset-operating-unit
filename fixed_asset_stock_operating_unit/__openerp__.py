@@ -5,16 +5,15 @@
 {
     "name": "Account Asset Management - Stock with Operating Units",
     "version": "8.0.1.0.0",
-    "author": "OpenSynergy Indonesia",
+    "author": "OpenSynergy Indonesia, PT. Simetri Sinergi Indonesia",
     "license": "AGPL-3",
-    "website": "https://opensynergy-indonesia.com",
+    "website": "https://simetri-sinergi.id",
     "category": "Accounting",
     "depends": [
         "fixed_asset_operating_unit",
         "fixed_asset_stock",
     ],
-    "data": [
-    ],
+    "data": [],
     "installable": True,
-    "auto_install": True
+    "auto_install": True,
 }

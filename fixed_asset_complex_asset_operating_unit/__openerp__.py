@@ -5,18 +5,15 @@
 {
     "name": "Complex Fixed Assets Management with Operating Units",
     "version": "8.0.1.0.0",
-    "author": "OpenSynergy Indonesia",
+    "author": "OpenSynergy Indonesia, PT. Simetri Sinergi Indonesia",
     "license": "AGPL-3",
-    "website": "https://opensynergy-indonesia.com",
+    "website": "https://simetri-sinergi.id",
     "category": "Accounting",
-    "depends": [
-        "fixed_asset_operating_unit",
-        "fixed_asset_complex_asset"
-    ],
+    "depends": ["fixed_asset_operating_unit", "fixed_asset_complex_asset"],
     "data": [
         "security/account_complex_asset_removal_security.xml",
-        "security/account_complex_asset_installation_security.xml"
+        "security/account_complex_asset_installation_security.xml",
     ],
     "installable": True,
-    "auto_install": True
+    "auto_install": True,
 }
